@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<style>
+    body {
+        background: url('../bg.jpg.jpg');
+
+    }
+    .yourself{
+        color: red;
+    }
+</style>
+
+<body>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text">
+        </div>
+        <br>
+        <div>
+            My Email: <input type="email">
+        </div>
+        <br>
+        <div>
+            Enter password: <input type="password">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="my date">
+        </div>
+        <br>
+
+
+        <br>
+        <div>
+            Bonus: <input type="number" name="mybonus">
+        </div>
+        <br>
+        <div>
+            are you 18+?: <input type="checkbox" name="Age restriction" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="My gender"> female<input type="radio" name="My gender">
+            Other<input type="radio" name="My gender">
+        </div>
+        <br>
+        <div>
+            <!-- Write about y:  <input type="file" name="my" id=""> -->
+            <!-- writ: <input type="range" name="" id=""> -->
+            <!-- se: <input type="search" name="" id=""> -->
+            Write about yourself: <br><textarea name="Myself" id="yourself" cols="60" rows="20"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="Car">Car</label>
+            <select name="Mycar" id="Car">
+                <option value="Indica">Indica</option>
+                <option value="Fortuner">Fortuner</option>
+                <option value="Fortuner">Fortuner</option>
+                <option value="Fortuner">JAguar</option>
+                <option value="Fortuner">Swift</option>
+                <option value="Fortuner">Nano</option>
+                <option value="Fortuner">Duster</option>
+                <option value="Fortuner">Alto</option>
+                <option value="Fortuner">Szire</option>
+                <option value="Fortuner">Alto</option>
+                <option value="Fortuner" selected>Lambhorghini</option>
+                <option value="Fortuner">Endeavour</option>
+                <option value="Fortuner">Merceddies</option>
+            </select>
+
+
+        </div>
+        <br>
+        <a href="https://google.com">Go to google</a>
+        <br>
+        <br>
+        <a href="https://alphaworld198.blogspot.com">Go to Blogger</a><br>
+
+        <br>
+        <div>
+            <input type="submit" value="Submit now"> <input type="reset" value="reset now">
+        </div>
+        <input type="url" name="My url" id="">
+
+
+
+    </form>
+</body>
+
+</html>
